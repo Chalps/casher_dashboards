@@ -1,6 +1,5 @@
 import {Nunito} from "@next/font/google";
 import styles from 'app/clients/[id]/client.module.css'
-import Image from "next/image";
 
 const nunito = Nunito({
     weight: ['700'],
