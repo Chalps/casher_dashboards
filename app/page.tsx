@@ -19,6 +19,7 @@ export default async function Home() {
             <div className="m-12">
                 <div className={styles.widget}>
                     <p className="text-6xl py-12 m-12" style={nunito.style}>{users}</p>
+                    <h2 className="text-2xl" style={nunito.style}>Usuários</h2>
                 </div>
             </div>
         </main>

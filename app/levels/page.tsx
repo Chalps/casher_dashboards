@@ -14,8 +14,6 @@ export default async function LevelsPage() {
     const res = await fetch('http://localhost:8080/casher/level/list');
     const levels = await res.json();
 
-    console.log(levels)
-
     return <>
         <h1 className="text-4xl py-12 m-12" style={nunito.style}> Levels </h1>
         <div className="m-12 table">
